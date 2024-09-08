@@ -13,11 +13,14 @@ class EpilApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         fontFamily: 'Gilroy',
+        shadowColor: AppColors.cBlueShadow,
         scaffoldBackgroundColor: AppColors.cWhite,
         colorSchemeSeed: AppColors.cBlue500,
+        appBarTheme: AppAppBarTheme().theme(),
         inputDecorationTheme: AppInputTheme().theme(),
         elevatedButtonTheme: AppElevaitedButtonTheme().theme(),
         navigationBarTheme: AppNavigationBarTheme().theme(),
+        floatingActionButtonTheme: AppFloatingActionButtonTheme().theme(),
       ),
       routerConfig: routes,
     );

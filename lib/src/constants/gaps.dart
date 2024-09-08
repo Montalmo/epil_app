@@ -24,6 +24,9 @@ abstract class AppGaps {
   );
 
   //*Vertical gaps
+  static const gapW4 = SizedBox(
+    width: 4.0,
+  );
   static const gapW8 = SizedBox(
     width: 8.0,
   );

@@ -5,7 +5,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../../../constants/gaps.dart';
 import '../../../../constants/theme_variables.dart';
-import '../../../../common_widgets/app_sq_icon_button.dart';
+import '../../../../common_widgets/app_sq_icon_button_widget.dart';
 
 class SignInPage extends StatelessWidget {
   const SignInPage({super.key});

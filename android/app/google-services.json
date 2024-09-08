@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "317075206375",
+    "project_id": "nepil-1463c",
+    "storage_bucket": "nepil-1463c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317075206375:android:eea774d6153eb9a63db242",
+        "android_client_info": {
+          "package_name": "com.example.epil_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317075206375-daj6m3bqddhq0bsn19vu4oq0ff82bb4d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.epil_app",
+            "certificate_hash": "541253f6460351c428d33431c232bdf155e1c055"
+          }
+        },
+        {
+          "client_id": "317075206375-8ct4p8n5gtn0uisen32v4pho24porada.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDV7zJeqClONjOn_DsZkSjzchMotfx_yj8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "317075206375-8ct4p8n5gtn0uisen32v4pho24porada.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "317075206375-mqk28vrb7lo9b39s1el5dln9qqktgns9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.epilApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

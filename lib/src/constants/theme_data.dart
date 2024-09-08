@@ -48,4 +48,22 @@ class AppNavigationBarTheme {
       );
 }
 
+class AppFloatingActionButtonTheme {
+  FloatingActionButtonThemeData theme() => const FloatingActionButtonThemeData(
+        backgroundColor: AppColors.cBlue500,
+        foregroundColor: AppColors.cWhite,
+        shape: RoundedRectangleBorder(
+          side: BorderSide(color: AppColors.cWhiteBorder),
+          borderRadius: BorderRadius.all(
+            Radius.circular(14.0),
+          ),
+        ),
+      );
+}
 
+class AppAppBarTheme {
+  AppBarTheme theme() => const AppBarTheme(
+        centerTitle: true,
+        backgroundColor: AppColors.cWhite,
+      );
+}

@@ -35,7 +35,7 @@ class AppUser {
 class Owner extends AppUser {
   final String location;
   final String sevrive;
-  final List<Clients> clients;
+  final List<Client> clients;
   final List<AppMessage> messages;
 
   Owner({
@@ -59,8 +59,11 @@ class Owner extends AppUser {
   });
 }
 
-class Clients extends AppUser {
-  Clients({
+class Client extends AppUser {
+  final int apendedCash;
+  final int countVisits;
+
+  Client({
     required super.uid,
     required super.firstName,
     required super.secondName,
@@ -74,5 +77,7 @@ class Clients extends AppUser {
     required super.idViber,
     required super.iudWallet,
     required super.uidCallendar,
+    required this.apendedCash,
+    required this.countVisits,
   });
 }
